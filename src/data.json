@@ -1,0 +1,80 @@
+{
+  "operations": [
+    {
+      "operation": "encode",
+      "value": "http://google.com"
+    },
+    {
+      "operation": "decode",
+      "value": "aHR0cDovL2ZhY2Vib29rLmNvbQ=="
+    },
+    {
+      "operation": "decode",
+      "value": "VGhpcyBpcyBweXRob24gYXBw"
+    },
+    {
+      "operation": "encode",
+      "value": "Multithreading rocks"
+    },
+    {
+      "operation": "encode",
+      "value": "This is one huge json file"
+    },
+    {
+      "operation": "decode",
+      "value": "VHJ5IGRlY29kaW5nIHRoaXM="
+    },
+    {
+      "operation": "decode",
+      "value": "V2Vid29ya2VycyEhIUhtbW0hIXNvbWV0aGluZyB0byB0aGluayBhYm91dA=="
+    },
+    {
+      "operation": "encode",
+      "value": "Mozilla/Chrome/IE?"
+    },
+    {
+      "operation": "decode",
+      "value": "VGhpcyBpcyBydW5uaW5nIG9uIGxvY2FsaG9zdA=="
+    },
+    {
+      "operation": "encode",
+      "value": "Hello World!!A Classic"
+    },
+    {
+      "operation": "decode",
+      "value": "dGhpcyBpcyBhIGJhc2U2NCBzdHJpbmc="
+    },
+    {
+      "operation": "decode",
+      "value": "SFRNTCA1IFdlYiB3b3JrZXJzIGFyZSB2ZXJ5IHNsb3cgd2hlbiB1c2luZyB3b3JrZXIucG9zdE1lc3NhZ2Ugb24gYSBsYXJnZSBKU09OIG9iamVjdC4gSSdtIHRyeWluZyB0byBmaWd1cmUgb3V0IGhvdyB0byB0cmFuc2ZlciBhIEpTT04gT2JqZWN0IHRvIGEgd2ViIHdvcmtlciAtIHVzaW5nIHRoZSAnVHJhbnNmZXJhYmxlIE9iamVjdHMnIHR5cGVzIGluIENocm9tZSwgaW4gb3JkZXIgdG8gaW5jcmVhc2UgdGhlIHNwZWVkIG9mIHRoaXMu"
+    },
+    {
+      "operation": "decode",
+      "value": "QmFzZTY0IGVuY29kaW5nIHNjaGVtZXMgYXJlIGNvbW1vbmx5IHVzZWQgd2hlbiB0aGVyZSBpcyBhIG5lZWQgdG8gZW5jb2RlIGJpbmFyeSBkYXRhIHRoYXQgbmVlZHMgYmUgc3RvcmVkIGFuZCB0cmFuc2ZlcnJlZCBvdmVyIG1lZGlhIHRoYXQgYXJlIGRlc2lnbmVkIHRvIGRlYWwgd2l0aCB0ZXh0dWFsIGRhdGEuIFRoaXMgaXMgdG8gZW5zdXJlIHRoYXQgdGhlIGRhdGEgcmVtYWlucyBpbnRhY3Qgd2l0aG91dCBtb2RpZmljYXRpb24gZHVyaW5nIHRyYW5zcG9ydC4="
+    },
+    {
+      "operation": "encode",
+      "value": "Web Workers provide a simple means for web content to run scripts in background threads. The worker thread can perform tasks without interfering with the user interface. In addition, they can perform I/O using XMLHttpRequest (although the responseXML and channel attributes are always null).Once created, a worker can send messages to the JavaScript code that created it by posting messages to an event handler specified by that code (and vice versa.) This article provides a detailed introduction to using web workers."
+    },
+    {
+      "operation": "encode",
+      "value": "This is a small message"
+    },
+    {
+      "operation": "decode",
+      "value": "SW4gcmVjZW50IHllYXJzIFJFU1QgKFJFcHJlc2VudGF0aW9uYWwgU3RhdGUgVHJhbnNmZXIpIGhhcyBlbWVyZ2VkIGFzIHRoZSBzdGFuZGFyZCBhcmNoaXRlY3R1cmFsIGRlc2lnbiBmb3Igd2ViIHNlcnZpY2VzIGFuZCB3ZWIgQVBJcy4="
+    },
+    {
+      "operation": "decode",
+      "value": "V2hlbiB3ZSBzZW5kIG92ZXIgZGF0YSwgd2UgY2Fubm90IGJlIHN1cmUgdGhhdCB0aGUgZGF0YSB3b3VsZCBiZSBpbnRlcnByZXRlZCBpbiB0aGUgc2FtZSBmb3JtYXQgYXMgd2UgaW50ZW5kZWQgaXQgdG8gYmUuIFNvLCB3ZSBzZW5kIG92ZXIgZGF0YSBjb2RlZCBpbiBzb21lIGZvcm1hdCAobGlrZSBCYXNlNjQpIHRoYXQgYm90aCBwYXJ0aWVzIHVuZGVyc3RhbmQuIFRoYXQgd2F5IGV2ZW4gaWYgc2VuZGVyIGFuZCByZWNlaXZlciBpbnRlcnByZXQgc2FtZSB0aGluZ3MgZGlmZmVyZW50bHksIGJ1dCBiZWNhdXNlIHRoZXkgYWdyZWUgb24gdGhlIGNvZGVkIGZvcm1hdCwgdGhlIGRhdGEgd2lsbCBub3QgZ2V0IGludGVycHJldGVkIHdyb25nbHku"
+    },
+    {
+      "operation": "encode",
+      "value": "The Mozilla Foundation and Opera Software presented a position paper at a World Wide Web Consortium (W3C) workshop in June 2004,[18] focusing on developing technologies that are backward compatible with existing browsers,[19] including an initial draft specification of Web Forms 2.0. The workshop concluded with a vote, 8 for, 14 against, for continuing work on HTML.[20] Immediately after the workshop, the Web Hypertext Application Technology Working Group (WHATWG) was formed to start work based upon that position paper, and a second draft, Web Applications 1.0, was also announced.[21] The two specifications were later merged to form HTML5.[22] The HTML5 specification was adopted as the starting point of the work of the new HTML working group of the W3C in 2007."
+    },
+    {
+      "operation": "decode",
+      "value": "SXRzIGNvcmUgYWltcyBhcmUgdG8gaW1wcm92ZSB0aGUgbGFuZ3VhZ2Ugd2l0aCBzdXBwb3J0IGZvciB0aGUgbGF0ZXN0IG11bHRpbWVkaWEgd2hpbGUga2VlcGluZyBpdCBlYXNpbHkgcmVhZGFibGUgYnkgaHVtYW5zIGFuZCBjb25zaXN0ZW50bHkgdW5kZXJzdG9vZCBieSBjb21w dXRlcnMgYW5kIGRldmljZXMgKHdlYiBicm93c2VycywgcGFyc2VycywgZXRjLikuIEhUTUw1IGlzIGludGVuZGVkIHRvIHN1YnN1bWUgbm90IG9ubHkgSFRNTCA0LCBidXQgYWxzbyBYSFRNTCAxIGFuZCBET00gTGV2ZWwgMiBIVE1MLls0XQpGb2xsb3dpbmcgaXRzIGltbWVkaWF0ZSBwcmVkZWNlc3NvcnMgSFRNTCA0LjAxIGFuZCBYSFRNTCAxLjEsIEhUTUw1IGlzIGEgcmVzcG9uc2UgdG8gdGhlIGZhY3QgdGhhdCB0aGUgSFRNTCBhbmQgWEhUTUwgaW4gY29tbW9uIHVzZSBvbiB0aGUgV29ybGQgV2lkZSBXZWIgaGF2ZSBhIG1peHR1cmUgb2YgZmVhdHVyZXMgaW50cm9kdWNlZCBieSB2YXJpb3VzIHNwZWNpZmljYXRpb25zLCBhbG9uZyB3aXRoIHRob3NlIGludHJvZHVjZWQgYnkgc29mdHdhcmUgcHJvZHVjdHMgc3VjaCBhcyB3ZWIgYnJvd3NlcnMgYW5kIHRob3NlIGVzdGFibGlzaGVkIGJ5IGNvbW1vbiBwcmFjdGljZS5bNV0gSXQgaXMgYWxzbyBhbiBhdHRlbXB0IHRvIGRlZmluZSBhIHNpbmdsZSBtYXJrdXAgbGFuZ3VhZ2UgdGhhdCBjYW4gYmUgd3JpdHRlbiBpbiBlaXRoZXIgSFRNTCBvciBYSFRNTC4gSXQgaW5jbHVkZXMgZGV0YWlsZWQgcHJvY2Vzc2luZyBtb2RlbHMgdG8gZW5jb3VyYWdlIG1vcmUgaW50ZXJvcGVyYWJsZSBpbXBsZW1lbnRhdGlvbnM7IGl0IGV4dGVuZHMsIGltcHJvdmVzIGFuZCByYXRpb25hbGl6ZXMgdGhlIG1hcmt1cCBhdmFpbGFibGUgZm9yIGRvY3VtZW50cywgYW5kIGludHJvZHVjZXMgbWFya3VwIGFuZCBhcHBsaWNhdGlvbiBwcm9ncmFtbWluZyBpbnRlcmZhY2VzIChBUElzKSBmb3IgY29tcGxleCB3ZWIgYXBwbGljYXRpb25zLls2XSBGb3IgdGhlIHNhbWUgcmVhc29ucywgSFRNTDUgaXMgYWxzbyBhIHBvdGVudGlhbCBjYW5kaWRhdGUgZm9yIGNyb3NzLXBsYXRmb3JtIG1vYmlsZSBhcHBsaWNhdGlvbnMuIE1hbnkgZmVhdHVyZXMgb2YgSFRNTDUgaGF2ZSBiZWVuIGJ1aWx0IHdpdGggdGhlIGNvbnNpZGVyYXRpb24gb2YgYmVpbmcgYWJsZSB0byBydW4gb24gbG93LXBvd2VyZWQgZGV2aWNlcyBzdWNoIGFzIHNtYXJ0cGhvbmVzIGFuZCB0YWJsZXRzLiBJbiBEZWNlbWJlciAyMDExLCByZXNlYXJjaCBmaXJtIFN0cmF0ZWd5IEFuYWx5dGljcyBmb3JlY2FzdCBzYWxlcyBvZiBIVE1MNSBjb21wYXRpYmxlIHBob25lcyB3b3VsZCB0b3AgMSBiaWxsaW9uIGluIDIwMTMuWzdd"
+    }
+  ]
+}

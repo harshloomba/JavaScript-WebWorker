@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Huge json parser with Worker</title>
+  </head>
+  <body>
+  <button onclick="getData()">Get Operation Data</button>
+  <output id="result"></output>
+  <script type="text/javascript">
+    var t0;
+    function getData(){
+    t0 = performance.now();
+    worker.postMessage({'time':t0});
+    }
+
+    var worker = new Worker('/static/hugeParser.js');
+
+    worker.addEventListener('message', function(e) {
+    document.getElementById('result').textContent += e.data+'\n';
+    }, false);
+    </script>
+  </body>
+</html>

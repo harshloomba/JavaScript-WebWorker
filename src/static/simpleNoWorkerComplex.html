@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Huge json parser</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript">
+    function getData(){
+      var t0 = performance.now();
+      $.ajax({
+        method: 'GET',
+        url: '/getjson',
+        success: function(result){
+            var area = document.getElementById('result');
+            //var t1 = performance.now();
+            var operations = JSON.parse(JSON.stringify(result)).operations_data.operations;
+            for(var i=0;i<operations.length;i++){
+              switch(operations[i].operation){
+                case 'encode':
+                  var encoded_data = btoa(operations[i].value);
+                  area.textContent += 'Encoded value of '+operations[i].value+' : '+encoded_data+'\n';
+                break;
+                case 'decode':
+                  var decoded_data = atob(operations[i].value);
+                  area.textContent += 'Decoded Value of '+operations[i].value+ ':'+decoded_data+'\n';
+                break;
+                default:
+                  area.textContent +='Unknown Operation:'+operations[i].operation+'\n';
+              };
+              if(i === operations.length-1){
+                var t1 = performance.now();
+                console.log('it took'+(t1-t0)+'milliseconds');
+              }
+            }
+          }
+      });
+      $.ajax({
+        method: 'GET',
+        url: '/getjson',
+        success: function(result){
+            var area = document.getElementById('result');
+            //var t1 = performance.now();
+            var operations = JSON.parse(JSON.stringify(result)).operations_data.operations;
+            for(var i=0;i<operations.length;i++){
+              switch(operations[i].operation){
+                case 'encode':
+                  var encoded_data = btoa(operations[i].value);
+                  area.textContent += 'Encoded value of '+operations[i].value+' : '+encoded_data+'\n';
+                break;
+                case 'decode':
+                  var decoded_data = atob(operations[i].value);
+                  area.textContent += 'Decoded Value of '+operations[i].value+ ':'+decoded_data+'\n';
+                break;
+                default:
+                  area.textContent +='Unknown Operation:'+operations[i].operation+'\n';
+              };
+              if(i === operations.length-1){
+                var t2 = performance.now();
+                console.log('it took'+(t2-t0)+'milliseconds');
+              }
+            }
+          }
+      });
+    }
+    </script>
+  </head>
+  <body>
+    <button onclick="getData()">Get Data</button>
+    <output id="result"></output>
+  </body>
+</html>

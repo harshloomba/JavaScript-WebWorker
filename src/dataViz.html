@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Data Visualization</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script src="http://code.highcharts.com/highcharts.js"></script>
+  <script type="text/javascript">
+  $(function () {
+    Highcharts.Series.prototype.getPointSpline = null;
+  });
+
+  $(function () {
+    $('#container').highcharts({
+      chart: {
+        defaultSeriesType: 'areaspline'
+      },
+
+      title:{
+          text: 'Web Workers VS Non Web Workers'
+      },
+
+      xAxis: {
+        categories: ['Trial1', 'Trial2', 'Trial3', 'Trial4', 'Trial5'],
+        showEmpty: false
+      },
+
+      yAxis: {
+        title:{
+            text: 'Execution Time (in ms)'
+        },
+        showEmpty: false
+      },
+
+      series: [{
+        name: 'No Web Woker',
+        allowPointSelect: true,
+        data: [ // use names for display in pie data labels
+          ['No Webworker',    10.08],
+          ['No Webworker',    9.644],
+          ['No Webworker',    10.224],
+          ['No Webworker',    10.44],
+          ['No Webworker',    10.805]
+        ],
+        showInLegend: true
+      },{
+        name: 'Web Worker',
+        allowPointSelect: true,
+        data: [ // use names for display in pie data labels
+          ['Webworker',    7.54],
+          ['Webworker',    7.92],
+          ['Webworker',    8.394],
+          ['Webworker',    8.04],
+          ['Webworker',    8.22]
+        ],
+        showInLegend: true
+      }]
+    });
+
+    var chart = $('#container').highcharts();
+  });
+  </script>
+</head>
+<body>
+  <div id="container" style="width:100%; height:100%"></div>
+</body>
+</html>
